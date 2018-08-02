@@ -28,9 +28,7 @@ Use it to:
 PHP Manager main page:
 
 .. image:: _static/main.png
-    :width: 350
 
 PHP Manager - configuration recommendaitons:
 
 .. image:: _static/config.png
-    :width: 350
