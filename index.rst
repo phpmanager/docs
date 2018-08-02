@@ -32,3 +32,15 @@ PHP Manager main page:
 PHP Manager - configuration recommendaitons:
 
 .. image:: _static/config.png
+
+Topics
+------
+
+.. toctree::
+    :titlesonly:
+
+    getting-started/index
+    tutorials/index
+    samples/index
+    contribute/index
+    support/index
