@@ -1,13 +1,18 @@
-Explanation on Source Code
-==========================
+Source Code
+===========
 
 By `Lex Li`_
 
-This article describes the code base details.
+This article describes the technical details on the code base.
 
 .. contents:: In this article:
   :local:
   :depth: 1
+
+Source Code Repository
+----------------------
+The latest source code can be found on `GitHub
+<https://github.com/phpmanager/phpmanager>`_ .
 
 Build Environment in AppVeyor
 -----------------------------
@@ -43,9 +48,17 @@ Installer Projects
 ------------------
 The installer projects are of Visual Studio Setup Project type,
 
-* PHPManagerSetup.vdproj generates PHPManagerForIIS.msi, for IIS 7.x x86.
-* PHPManagerSetup_64.vdproj generates PHPManagerForIIS_64.msi, for IIS 7.x x64.
-* PHPManagerSetup8.vdproj generates PHPManagerForIIS8.msi, for IIS 8.x and 10.x
-  x86.
-* PHPManagerSetup8_64.vdproj generates PHPManagerForIIS8_64.msi, for IIS 8.x
-  and 10.x x64.
+* PHPManagerSetup.vdproj generates PHPManagerForIIS7x.msi, for IIS 7.x x86.
+* PHPManagerSetup_64.vdproj generates PHPManagerForIIS7x_64.msi, for IIS 7.x
+  x64.
+* PHPManagerSetup8.vdproj generates PHPManagerForIIS8x10x.msi, for IIS 8.x and
+  10.x x86.
+* PHPManagerSetup8_64.vdproj generates PHPManagerForIIS8x10x_64.msi, for IIS
+  8.x and 10.x x64.
+
+Refereces
+---------
+
+- :doc:`/getting-started/installation`
+- :doc:`/getting-started/debugging`
+
