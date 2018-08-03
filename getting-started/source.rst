@@ -44,21 +44,16 @@ The C# projects are the core assemblies to extend IIS Manager functionality,
 * PowerShell provides PowerShell snapin support.
 * Setup Helper is a custom action for installation.
 
-Installer Projects
-------------------
-The installer projects are of Visual Studio Setup Project type,
+Installer Project
+-----------------
+The installer project uses WiX toolset. To work on it, the following
+dependencies must be installed,
 
-* PHPManagerSetup.vdproj generates PHPManagerForIIS7x.msi, for IIS 7.x x86.
-* PHPManagerSetup_64.vdproj generates PHPManagerForIIS7x_64.msi, for IIS 7.x
-  x64.
-* PHPManagerSetup8.vdproj generates PHPManagerForIIS8x10x.msi, for IIS 8.x and
-  10.x x86.
-* PHPManagerSetup8_64.vdproj generates PHPManagerForIIS8x10x_64.msi, for IIS
-  8.x and 10.x x64.
+* WiX Toolset (3.11.1 and above)
+* WiX Toolset Visual Studio Extension (if you use Visual Studio)
 
 Refereces
 ---------
 
 - :doc:`/getting-started/installation`
 - :doc:`/getting-started/debugging`
-
