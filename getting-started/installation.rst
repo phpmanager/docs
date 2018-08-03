@@ -9,8 +9,8 @@ This article describes how to install PHP Manager for IIS on Windows.
   :local:
   :depth: 1
 
-Prerequisites
--------------
+Supported Platforms
+-------------------
 Make sure you are using a supported Windows release,
 
 * Windows Server 2008
@@ -23,6 +23,22 @@ Make sure you are using a supported Windows release,
 * Windows Server 2016
 
 All other releases are either end-of-life, or not yet supported.
+
+Prerequisites
+-------------
+There are a few requirements on the system,
+
+FastCGI
+^^^^^^^
+On all IIS releases, you must enable FastCGI. More information can be found in
+`this article <https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7>`_ .
+
+Windows Server 2008 Specific
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* .NET Framework 3.5 SP1
+* PowerShell 2.0
+* Windows PowerShell snap-in for IIS 7
+
 
 Installers
 ----------
