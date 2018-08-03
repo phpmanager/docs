@@ -39,6 +39,9 @@ Windows Server 2008 Specific
 * PowerShell 2.0
 * Windows PowerShell snap-in for IIS 7
 
+Windows Server 2008 R2 Specific
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* .NET Framework 3.5.1 feature must be manually enabled.
 
 Installers
 ----------
