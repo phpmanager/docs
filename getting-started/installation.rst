@@ -40,7 +40,15 @@ Windows Server 2008 R2 Specific
 
 Windows Server 2012 Specific
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* .NET Framework 4.5.2 must be installed separately.
+* .NET Framework 4.5.2 must be installed in advance.
+
+Windows 8.1 Specific
+^^^^^^^^^^^^^^^^^^^^
+* .NET Framework 4.5.2 must be installed in advance.
+
+Windows Server 2012 R2 Specific
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* .NET Framework 4.5.2 must be installed in advance.
 
 FastCGI
 ^^^^^^^
