@@ -28,11 +28,6 @@ Prerequisites
 -------------
 There are a few requirements on the system,
 
-FastCGI
-^^^^^^^
-On all IIS releases, you must enable FastCGI. More information can be found in
-`this article <https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7>`_ .
-
 Windows Server 2008 Specific
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * .NET Framework 3.5 SP1
@@ -42,6 +37,15 @@ Windows Server 2008 Specific
 Windows Server 2008 R2 Specific
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * .NET Framework 3.5.1 feature must be manually enabled.
+
+Windows Server 2012 Specific
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* .NET Framework 4.5.2 must be installed separately.
+
+FastCGI
+^^^^^^^
+On all IIS releases you should enable FastCGI. More information can be found in
+`this article <https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7>`_ .
 
 Installers
 ----------
