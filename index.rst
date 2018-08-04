@@ -41,6 +41,3 @@ Topics
 
     getting-started/index
     tutorials/index
-    samples/index
-    contribute/index
-    support/index

@@ -34,5 +34,5 @@ Since 2.0 Beta 2, the single installer can be used for all platforms.
 Refereces
 ---------
 
-- :doc:`/getting-getting-started/supported-platforms`
+- :doc:`/getting-started/supported-platforms`
 - :doc:`/getting-started/source`
