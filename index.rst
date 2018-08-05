@@ -13,6 +13,9 @@ PHP Manager for IIS
 PHP Manager for IIS is a GUI for managing multiple PHP installations on the IIS
 server.
 
+Copyright (C) 2010-2013 Ruslan Yakushev
+Copyright (C) 2018 Lex Li, Alexandre Mutel, and other contributors
+
 Use it to:
 
 #. Register PHP with IIS;
