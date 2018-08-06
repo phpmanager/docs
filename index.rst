@@ -8,7 +8,7 @@
 PHP Manager 2 for IIS
 =====================
 
-.. attention:: Download 2.0 Beta 2 now from `GitHub <https://github.com/phpmanager/phpmanager/releases/tag/v2.0-beta2>`_ !
+.. attention:: Download 2.0 RC now from `GitHub <https://github.com/phpmanager/phpmanager/releases/tag/v2.0-rc1>`_ !
 
 PHP Manager for IIS is a GUI for managing multiple PHP installations on the IIS
 server.
