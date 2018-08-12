@@ -1,7 +1,7 @@
 Managing PHP installations with PHP Manager user interface
 ==========================================================
 
-By `Ruslan Yakushev`_
+By `Ruslan Yakushev`_, `Lex Li`_
 
 This article describes how to use PHP Manager for IIS user interface.
 
@@ -102,6 +102,10 @@ HTTP client.
 
 .. image:: _static/error.png
 
+.. note:: ``track_errors`` option is obsolete in PHP 7.2 and above, so it is
+   not included in recommended settings. More information can be found in
+   `this article <http://php.net/manual/en/migration72.deprecated.php>`_ .
+
 Configuring Runtime Limits
 --------------------------
 Various timeouts and limits can be configured in the "PHP Runtime Limits" page:
@@ -120,6 +124,17 @@ Enabling or Disabling PHP Extensions
 PHP extensions can be enabled or disabled in the "PHP Extensions" page:
 
 .. image:: _static/extensions.png
+
+.. note:: ``php_sql.dll`` is obsolete in PHP 7.0 and above, so it is not
+   included in recommended extension list. More information can be found in
+   `this RFC document <https://wiki.php.net/rfc/remove_deprecated_functionality_in_php7>`_ .
+
+Unregistering PHP with IIS
+--------------------------
+At server level, remove the PHP items registered in "FastCGI Settings" feature
+in IIS Manager.
+
+.. note:: To register PHP, please follow "Registering PHP with IIS" section.
 
 Refereces
 ---------
