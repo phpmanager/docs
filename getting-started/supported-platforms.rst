@@ -67,3 +67,7 @@ Windows 10
 Windows Server 2016
 ^^^^^^^^^^^^^^^^^^^
 * Require IIS 10
+
+Windows Server 2019
+^^^^^^^^^^^^^^^^^^^
+* Require IIS 10

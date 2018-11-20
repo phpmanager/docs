@@ -77,8 +77,7 @@ following,
 * Fix known issues.
 * Test on all supported platforms.
 
-Currently the 2.0 Beta 1 release is still being worked on. An official release
-is expected by the end of August, 2018. [4]_
+The 2.0 release was published in August, 2018. [4]_
 
 .. rubric:: Footnotes
 
