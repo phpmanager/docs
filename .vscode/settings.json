@@ -4,5 +4,5 @@
     ],
     "restructuredtext.languageServer.disabled": false,
     "restructuredtext.workspaceRoot": "/Users/lextm/phpmanager",
-    "restructuredtext.confPath": "/Users/lextm/phpmanager"
+    "restructuredtext.confPath": "${workspaceFolder}",
 }

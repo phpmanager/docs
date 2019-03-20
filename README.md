@@ -1,4 +1,4 @@
 PHP Manager Archive
 ===================
 
-This project provides the source for [docs.phpmanager.xyz](http://docs.phpmanager.xyz/).
+This project provides the source for [docs.phpmanager.xyz](https://docs.phpmanager.xyz/).
