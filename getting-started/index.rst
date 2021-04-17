@@ -8,6 +8,4 @@ Getting Started
    installation
    source
    debugging
-   signature
    history
-   license-notice
