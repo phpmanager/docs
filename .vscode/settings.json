@@ -2,4 +2,5 @@
     "editor.rulers": [
         79
     ],
+    "esbonio.sphinx.confDir": "${workspaceFolder}",
 }
