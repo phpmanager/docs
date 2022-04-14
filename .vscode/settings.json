@@ -2,7 +2,4 @@
     "editor.rulers": [
         79
     ],
-    "restructuredtext.languageServer.disabled": false,
-    "restructuredtext.workspaceRoot": "/Users/lextm/phpmanager",
-    "restructuredtext.confPath": "${workspaceFolder}",
 }
