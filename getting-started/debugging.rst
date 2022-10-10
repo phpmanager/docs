@@ -28,10 +28,10 @@ Detailed Steps
 #. Back to IIS Manager and open PHP Manager pages to trigger the break points.
 
 .. note:: Don't attempt to launch IIS Manager from Visual Studio directly as it
-   only works on 32 bit Windows.
+   might only work on 32 bit Windows.
 
-Refereces
----------
+References
+----------
 
 - :doc:`/getting-started/installation`
 - :doc:`/getting-started/source`

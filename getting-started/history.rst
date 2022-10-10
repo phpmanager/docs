@@ -77,7 +77,8 @@ following,
 * Fix known issues.
 * Test on all supported platforms.
 
-The 2.0 release was published in August, 2018. [4]_
+The 2.0 release was published in August, 2018. [4]_ Other 2.x releases were
+published with additional updates.
 
 .. rubric:: Footnotes
 

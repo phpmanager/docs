@@ -14,46 +14,44 @@ Source Code Repository
 The latest source code can be found on `GitHub
 <https://github.com/phpmanager/phpmanager>`_ .
 
-Build Environment in AppVeyor
------------------------------
-The configuration file ``AppVeyor.yml`` shows the basic information on how to
+Build Environment in GitHub Actions
+-----------------------------------
+The configuration file ``dotnet-desktop.yml`` shows the basic information on how to
 compile the code base,
 
-* Use Visual Studio 2013 image.
+* Use ``windows-latest`` image.
 * Run ``dist.release.bat`` to create release build.
 
 The artifacts are the installers for testing.
 
 Local Environment for Development
 ---------------------------------
-You might set up a local development environment to match AppVeyor's Visual
-Studio 2013 image.
+You might set up a local development environment to match GitHub Actions's
+``windows-latest`` image.
 
-* A Visual Studio release (VS2013 and above recommanded) to work on the C#
+* A Visual Studio release (VS2022 and above recommended) to work on the C#
   projects.
-* A Visual Studio release (VS2013 and above recommended) to build the installer
-  projects.
-* Windows SDK for Windows Server 2008 and .NET Framework 3.5.
+* .NET Framework 4.6.2 and above.
 
 C# Projects
 -----------
 The C# projects are the core assemblies to extend IIS Manager functionality,
 
-* Server is the extension server which provides access to PHP configuration.
-* Client is the extension client which implements UI elements in IIS Manager.
-* PowerShell provides PowerShell snapin support.
-* Setup Helper is a custom action for installation.
+* ``.Server`` is the extension server which provides access to PHP configuration.
+* ``.Client`` is the extension client which implements UI elements in IIS Manager.
+* ``.PowerShell`` provides PowerShell snapin support.
+* ``.Setup Helper`` is a custom action for installation.
 
 Installer Project
 -----------------
-The installer project uses WiX toolset. To work on it, the following
+The installer project uses WiX Toolset. To work on it, the following
 dependencies must be installed,
 
 * WiX Toolset (3.11.1 and above)
 * WiX Toolset Visual Studio Extension (if you use Visual Studio)
 
-Refereces
----------
+References
+----------
 
 - :doc:`/getting-started/installation`
 - :doc:`/getting-started/debugging`
