@@ -36,8 +36,7 @@ This project is an IIS Manager extension (plus PowerShell snapin) to better
 support PHP configuration system via IIS Manager experience. So it was quite
 popular.
 
-Ruslan worked for Microsoft, and was in IIS team (product managr) before he
-later moved to other positions.
+Ruslan worked for Microsoft, and was in IIS team (Product Manager) before later moved to other positions.
 
 The last commit he made was on December 13, 2013.
 
