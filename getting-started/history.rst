@@ -65,7 +65,7 @@ SkyDrive/OneDrive, but the actual source code was not available.
 
 There was an installer for 1.5.0, but it only aims for IIS 10.
 
-New Repository for 2.0 Release And Above
+New Repository for 2.0 Release and Above
 ----------------------------------------
 To fully take over the project and make it healthy again, Lex Li did the
 following,
