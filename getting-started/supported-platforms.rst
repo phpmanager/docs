@@ -63,9 +63,9 @@ PHP on Windows Status
 ---------------------
 There are two facts you should keep in mind that,
 
-* Microsoft discontinued its support of PHP 8.0 and above on Windows as [announced on July 9, 2020](https://news-web.php.net/php.internals/110907)
-* All PHP versions below 8.0 are [now end of life](https://www.php.net/supported-versions.php)
+* Microsoft discontinued its support of PHP 8.0 and above on Windows as `announced on July 9, 2020 <https://news-web.php.net/php.internals/110907>`_
+* All PHP versions below 8.0 are `now end of life <https://www.php.net/supported-versions.php>`_
 
-So, if you are now running your PHP web apps on Windows/IIS, you can only reach out to the PHP community for support. Note that this applies to [all PHP related components](https://halfblood.pro/who-should-be-contacted-for-php-on-iis-issues-c80b90bd365). Even if you meet an issue (such as incompatibilities) with the closed source IIS components, you are not likely to receive assistance from Microsoft.
+So, if you are now running your PHP web apps on Windows/IIS, you can only reach out to the PHP community for support. Note that this applies to `all PHP related components <https://halfblood.pro/who-should-be-contacted-for-php-on-iis-issues-c80b90bd365>`_. Even if you meet an issue (such as incompatibilities) with the closed source IIS components, you are not likely to receive assistance from Microsoft.
 
 To avoid all the hurdles, you should migrate to Linux.
