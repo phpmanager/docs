@@ -31,8 +31,14 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.intersphinx'
+    'sphinx.ext.intersphinx',
+    'sphinx_sitemap',
+    'sphinx_copybutton',
 ]
+
+html_baseurl = "https://docs.phpmanager.xyz/"
+sitemap_url_scheme = "{link}"
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -50,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'phpmanager'
-copyright = u'2010, Ruslan Yakushev'
+copyright = u'2010-2013, Ruslan Yakushev. © Copyright 2018-2023 Lex Li, Alexandre Mutel, and other contributors'
 author = u'PHP Manager'
 
 # The version info for the project you're documenting, acts as replacement for
