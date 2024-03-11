@@ -79,6 +79,9 @@ following,
 The 2.0 release was published in August, 2018. [4]_ Other 2.x releases were
 published with additional updates.
 
+Because Microsoft ended its support of PHP on Windows/IIS, this project is
+no longer actively maintained.
+
 .. rubric:: Footnotes
 
 .. [1] http://mvolo.com/fastcgi-for-iis-60-is-released-on-download-center/
