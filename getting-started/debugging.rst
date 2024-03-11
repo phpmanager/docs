@@ -13,6 +13,7 @@ Prerequisites
 -------------
 #. Make sure you set up a local development environment as revealed in
 :doc:`/getting-started/source`.
+
 #. Install PHP Manager locally so all IIS Manager configuration is set.
 
 Detailed Steps
