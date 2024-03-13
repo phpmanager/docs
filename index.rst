@@ -49,3 +49,4 @@ Topics
     getting-started/index
     tutorials/index
     Support Services <https://support.lextudio.com>
+    privacy

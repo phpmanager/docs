@@ -34,6 +34,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_sitemap',
     'sphinx_copybutton',
+    'sphinx_sitemap'
 ]
 
 html_baseurl = "https://docs.phpmanager.xyz/"
