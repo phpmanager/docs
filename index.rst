@@ -44,9 +44,10 @@ Topics
 ------
 
 .. toctree::
-    :titlesonly:
+   :titlesonly:
 
-    getting-started/index
-    tutorials/index
-    Support Services <https://support.lextudio.com>
-    privacy
+   Visit Docs Home <https://docs.lextudio.com>
+   getting-started/index
+   tutorials/index
+   Support Services <https://docs.lextudio.com/services/>
+   privacy
