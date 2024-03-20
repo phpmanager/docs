@@ -5,10 +5,6 @@ By `Ruslan Yakushev`_, `Lex Li`_
 
 This article describes how to use PHP Manager for IIS user interface.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Prerequisites
 -------------
 Make sure you install PHP Manager for IIS properly following
@@ -22,7 +18,7 @@ Manager" feature:
 When opened, the "PHP Manager" feature provides a configuration overview for
 the PHP installation that is registered with IIS and is currently active. If no
 PHP is registered with IIS, then the only action that can be performed is the
-registation of a new PHP version.
+registration of a new PHP version.
 
 Registering PHP with IIS
 ------------------------
@@ -136,8 +132,8 @@ in IIS Manager.
 
 .. note:: To register PHP, please follow "Registering PHP with IIS" section.
 
-Refereces
----------
+Related Resources
+-----------------
 
 - :doc:`/getting-started/installation`
 - :doc:`/tutorials/command-line`

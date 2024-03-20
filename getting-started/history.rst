@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This article describes the history of PHP Manager.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Overview of PHP on IIS
 ----------------------
 PHP has been a popular programming platform for web applications. It has been

@@ -5,10 +5,6 @@ By `Ruslan Yakushev`_
 
 This article describes how to use PHP Manager command line.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Prerequisites
 -------------
 Make sure you install PHP Manager for IIS properly following
@@ -289,8 +285,8 @@ Site":
    php-5.3.6                     5.3.6                         C:\php\536\php-cgi.exe                                 True
    php-5.2.17                    5.2.17                        C:\php\5217\php-cgi.exe                               Fals
 
-Refereces
----------
+Related Resources
+-----------------
 
 - :doc:`/getting-started/installation`
 - :doc:`/tutorials/user-interface`

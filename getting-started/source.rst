@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This article describes the technical details on the code base.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Source Code Repository
 ----------------------
 The latest source code can be found on `GitHub
@@ -50,8 +46,8 @@ dependencies must be installed,
 * WiX Toolset (3.11.1 and above)
 * WiX Toolset Visual Studio Extension (if you use Visual Studio)
 
-References
-----------
+Related Resources
+-----------------
 
 - :doc:`/getting-started/installation`
 - :doc:`/getting-started/debugging`

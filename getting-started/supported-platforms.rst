@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This article describes what are the supported platforms.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 PHP on Windows Status
 ---------------------
 There are two facts you should keep in mind that,

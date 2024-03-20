@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This article describes how to install PHP Manager for IIS on Windows.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Supported Platforms
 -------------------
 Make sure you are using a supported Windows release. More information can be
@@ -31,8 +27,8 @@ Each releases contains the installers you can use, or links to them.
 .. note:: Please report installation issues to `Issues
    <https://github.com/phpmanager/phpmanager/issues>`_ .
 
-Refereces
----------
+Related Resources
+-----------------
 
 - :doc:`/getting-started/supported-platforms`
 - :doc:`/getting-started/source`
