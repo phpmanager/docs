@@ -11,10 +11,10 @@ Make sure you install PHP Manager for IIS properly following
 :doc:`/getting-started/installation` .
 
 After installation is complete, launch the Windows PowerShell command line
-window in an evelated mode (right-click and select "Run as Administrator").
+window in an elevated mode (right-click and select "Run as Administrator").
 After that type the following command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    Add-PsSnapin PHPManagerSnapin
 
@@ -23,7 +23,7 @@ and configure PHP installation from command line.
 
 To get the list of available cmdlets use Get-Command cmdlet:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-Command -Module phpmanagersnapin
 
@@ -42,7 +42,7 @@ To get the list of available cmdlets use Get-Command cmdlet:
 
 To learn what each cmdlet does use Get-Help cmdlet:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> get-help Get-PHPExtension
 
@@ -78,17 +78,17 @@ files from it into a folder of your choice.
    Windows installer from http://windows.php.net/ - the PHP Manager can be used
    to manage those PHP installations as well.
 
-In the PowerShell command line window type while providng the absolute path to
+In the PowerShell command line window type while providing the absolute path to
 the location where you have extracted PHP binaries:
 
-.. code-block:: text
+.. code-block:: powershell
 
    New-PHPVersion -ScriptProcessor "<absolute path to php-cgi.exe>"
 
 To get information about the registered PHP version use
 ``Get-PHPConfiguraiton`` command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-PHPConfiguration
 
@@ -103,10 +103,10 @@ To get information about the registered PHP version use
 
 Switching between PHP versions
 ------------------------------
-To get the list of PHP versions registerd with IIS use the ``Get-PHPVersion``
+To get the list of PHP versions registered with IIS use the ``Get-PHPVersion``
 command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-PHPVersion
 
@@ -118,7 +118,7 @@ command:
 To switch the version use ``Set-PHPVersion``. After that use ``Get-PHPVersion``
 command to check if the change took effect:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Set-PHPVersion -HandlerName php53_via_fastcgi
    PS C:\Users\Administrator> Get-PHPVersion
@@ -134,9 +134,9 @@ To get the list PHP configuration settings and their values use
 ``Get-PHPSetting`` command. By default it will output a long list of all
 available settings, so it is a good idea to filter the output by using wildcard
 pattern for setting name or section name. For example, the following command
-will output all settings from MySQL sesion:
+will output all settings from MySQL session:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-PHPSetting -Section mysql
 
@@ -157,7 +157,7 @@ will output all settings from MySQL sesion:
 
 This command will output all settings which have word "error" in their names:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-PHPSetting -Name *error*
 
@@ -176,13 +176,13 @@ This command will output all settings which have word "error" in their names:
 
 To change the value of an existing setting use ``Set-PHPSetting`` command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    Set-PHPSetting -Name display_errors -Value On
 
 To add a new setting use ``New-PHPSetting`` command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    New-PHPSetting -Name wincache.debuglevel -Value 101 -Section wincache
 
@@ -193,7 +193,7 @@ Enabling and Disabling PHP extensions
 To get the list of currently installed extension use ``Get-PHPExtension``
 command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-PHPExtension
 
@@ -239,13 +239,13 @@ command:
 
 To enable or disable an extension use ``Set-PHPExtension`` command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    Set-PHPExtension -Name php_enchant.dll -Status enabled
 
 To enable all pdo extension use this command:
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-PHPExtension -Name *pdo* | Set-PHPExtension -Status enabled
    PS C:\Users\Administrator> Get-PHPExtension -Name *pdo*
@@ -268,7 +268,7 @@ site, application or a folder levels in IIS. This can be done by using the
 how to change the PHP version for the directory "test" under "Default Web
 Site":
 
-.. code-block:: text
+.. code-block:: powershell
 
    PS C:\Users\Administrator> Get-PHPVersion -SiteName "Default Web Site" -VirtualPath "test"
 

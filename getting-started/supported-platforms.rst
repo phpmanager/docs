@@ -16,7 +16,7 @@ There are two facts you should keep in mind that,
 
 So, if you are now running your PHP web apps on Windows/IIS, you can only rely
 on the PHP community for support. Note that this applies to
-`all PHP related components <https://halfblood.pro/who-should-be-contacted-for-php-on-iis-issues-c80b90bd365>`_.
+`all PHP related components <https://docs.lextudio.com/blog/who-should-be-contacted-for-php-on-iis-issues-c80b90bd365>`_.
 Even if you meet an issue (such as incompatibilities) with the closed source
 IIS components, you are not likely to receive assistance from Microsoft.
 

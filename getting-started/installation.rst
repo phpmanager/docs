@@ -15,7 +15,7 @@ All other releases are either end-of-life, or not yet supported.
 Prerequisites
 -------------
 On all IIS releases you should enable FastCGI. More information can be found in
-`this article <https://learn.microsoft.com/iis/application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7>`_ .
+`this article <https://learn.microsoft.com/iis/configuration/system.webserver/fastcgi/application/#how-to>`_ .
 
 Installers
 ----------
