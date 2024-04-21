@@ -33,8 +33,11 @@ sys.path.insert(0, os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_sitemap',
-    'sphinx_copybutton'
+    'sphinx_copybutton',
+    'notfound.extension',
 ]
+
+notfound_urls_prefix = "/phpmanager/"
 
 html_baseurl = "https://docs.lextudio.com/phpmanager/"
 sitemap_url_scheme = "{link}"
