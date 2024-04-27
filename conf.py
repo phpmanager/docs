@@ -132,6 +132,7 @@ html_theme = 'furo'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
+    'announcement': '<em>News:</em> PHP lost Microsoft support and this project is archived! Learn more from <a href="https://docs.lextudio.com/phpmanager/getting-started/supported-platforms#php-on-windows-status">this page</a>.',
     "source_repository": "https://github.com/phpmanager/docs",
     "source_branch": "master",
     "source_directory": "/",

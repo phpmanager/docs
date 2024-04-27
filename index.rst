@@ -8,11 +8,6 @@
 PHP Manager 2 for IIS
 =====================
 
-.. caution::
-   :doc:`PHP on IIS/Windows lost Microsoft support! </getting-started/supported-platforms>`
-
-   PHP Manager 2 for IIS does not plan any new releases.
-
 PHP Manager for IIS is a GUI for managing multiple PHP installations on the
 IIS server.
 
