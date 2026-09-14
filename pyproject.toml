@@ -1,0 +1,11 @@
+[project]
+name = "phpmanager-docs"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "sphinx",
+    "sphinx-copybutton",
+    "sphinx-sitemap-lextudio",
+    "sphinx-notfound-page",
+    "furo",
+]
